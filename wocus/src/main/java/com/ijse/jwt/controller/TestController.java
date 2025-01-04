@@ -9,6 +9,6 @@ public class TestController {
     
     @GetMapping("/test")
     public ResponseEntity<String> testAPI() {
-        return ResponseEntity.ok("Testing Endpoint is Working");
+        return ResponseEntity.ok("Testing Endpoint is Woorking");
     }
 }
