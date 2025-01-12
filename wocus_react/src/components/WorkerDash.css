@@ -1,0 +1,35 @@
+.worker-dashboard {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  

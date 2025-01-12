@@ -1,0 +1,60 @@
+/* General page styling */
+div {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  /* Heading style */
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Button container styling */
+  div > div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #4CAF50;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  /* Button active effect */
+  button:active {
+    transform: scale(1);
+    background-color: #45a049;
+  }
+  
+  /* Styling for button links */
+  button:focus {
+    outline: none;
+  }
+  
+  /* Flex container for links */
+  div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
